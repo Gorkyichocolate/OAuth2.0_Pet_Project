@@ -12,7 +12,7 @@
 export default {
   methods: {
     loginWithGoogle() {
-      window.location.href ='http://localhost:8000/auth/google/url';
+      window.location.href = 'http://localhost:8000/auth/google/url';
     }
   }
 }

@@ -24,7 +24,7 @@ async def handle_code(
     state: Annotated[str, Body()],
 ):
     if state not in state_storage:
-        raise
+        pass
     else:
         print("Стейт корректный")
     google_token_url = "https://oauth2.googleapis.com/token"
